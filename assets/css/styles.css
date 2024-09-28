@@ -17,11 +17,6 @@ li {
     list-style-type: none;
 }
 
-.zoom:hover {
-    transform: scale(1.5);
-    transition: transform 0.3s ease; 
-}
-
 .logo {
     justify-content: center;
     display: flex;
