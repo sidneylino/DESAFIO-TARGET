@@ -1,5 +1,5 @@
 export default async function faturamento() {
-    const res = await fetch('/DESAFIO-TARGET/dados.json');
+    const res = await fetch('/main/dados.json');
     const dados = await res.json();
     operatingData(dados);
 }
